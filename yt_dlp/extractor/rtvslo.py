@@ -16,7 +16,7 @@ class RTVSLOIE(InfoExtractor):
     IE_NAME = 'rtvslo.si'
     _VALID_URL = r'''(?x)
         https?://(?:
-            (?:365|4d)\.rtvslo.si/arhiv/[^/?#&;]+|
+            (?:365|4d)\.rtvslo.si/(arhiv|podkast)/[^/?#&;]+|
             (?:www\.)?rtvslo\.si/rtv365/arhiv
         )/(?P<id>\d+)'''
     _GEO_COUNTRIES = ['SI']
